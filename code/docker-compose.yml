@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  dummy:
+    image: pcmagas/dummy
+  environment:
+    DUMMY_ENV: $DUMMY_ENV
